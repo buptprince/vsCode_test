@@ -2,8 +2,8 @@
     "tasks": [
         {
             "type": "shell",    
-            "label": "g++-8 build active file",  //命令是g++-8命令
-            "command": "/usr/local/bin/g++-8",
+            "label": "clang++ build active file",  
+            "command": "/usr/bin/clang++",
             "args": [
                 "-g",
                 "${file}",
@@ -11,7 +11,7 @@
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "/usr/local/bin"
+                "cwd": "/usr/bin"
             }
         }
     ],

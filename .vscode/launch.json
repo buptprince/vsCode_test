@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++-8 build and debug active file",
+            "name": "clang++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}", //需要运行的是当前目录中的编译好的文件
@@ -15,7 +15,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "g++-8 build active file"
+            "preLaunchTask": "clang++ build active file"
         }
     ]
 }
